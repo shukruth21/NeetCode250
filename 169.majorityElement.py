@@ -1,4 +1,5 @@
 #fastest
+#since the count of majority of element is more than n/2 when we sort the middle element has to be majority element
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         nums.sort()
